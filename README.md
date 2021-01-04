@@ -3,7 +3,7 @@
 ## Overview
 Django has a powerful Object Relational Mapper that allows us to persist data using Python instead of SQL.
 
-Today you’ll build out a project with one model and wire up that model using Django Views.
+In this repo will build out a project with one model and wire up that model using Django Views.
 
 ## Feature Tasks and Requirements
 * create blog_project project
