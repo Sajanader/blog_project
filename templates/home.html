@@ -1,0 +1,10 @@
+
+    {% extends 'base.html' %}
+    {% block section %}
+      <h2>A list of posts</h2>
+      <ul>
+          {% for post in object_list %}
+          <li> <a href="{% url 'post_details' post.pk %}">{{post.title}}</a> </li>
+          {% endfor %}
+      </ul>
+    {% endblock section %}
