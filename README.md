@@ -40,4 +40,14 @@ In this repo will build out a project with one model and wire up that model usin
 * update app urlpatterns to handle detail view
 * account for primary key in url
 * add link in home page template to related post detail page
+## Lab-28: Django CRUD and Forms
+## Overview
+Add full CRUD functionality to your bag of tricks by building a Django project that allows Creating, Reading, Updating and Deleting.
 
+## Feature Tasks and Requirementsw
+* Create BlogCreateView that extends appropriate generic view
+associated url path is post/new/
+* Create BlogUpdateView that extends appropriate generic view
+associated url path is post/<int:pk>/edit/
+* Create BlogDeleteView that extends appropriate generic view
+associated url path is post/<int:pk>/delete/
